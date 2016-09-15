@@ -12,7 +12,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Random;
 
-public class MemeticAlgorithm implements IAlgorithm<Tour> {
+public class MemeticAlgorithm implements initAlgorithm<Tour> {
 
 	// Solution Parameters
 	private int generationCounter = 0; // Initialisierung des Index Generationen-Index
