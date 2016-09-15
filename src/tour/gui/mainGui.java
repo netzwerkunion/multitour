@@ -17,9 +17,9 @@ import javax.swing.JScrollBar;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-import tour.algorithm.AlgorithmHandler;
-import tour.algorithm.MemeticAlgorithm;
-import tour.algorithm.Tour;
+import tour.algorithm.algorithmHandler;
+import tour.algorithm.memeticAlgorithm;
+import tour.algorithm.tour;
 
 public class MainWindow extends JFrame {
 	
@@ -28,8 +28,8 @@ public class MainWindow extends JFrame {
 	private JTextArea output = new JTextArea(); 
 	private JScrollPane jp = new JScrollPane(output); 
 	
-	MemeticAlgorithm algorithm = new MemeticAlgorithm();
-	AlgorithmHandler handler = new AlgorithmHandler(algorithm); 
+	memeticAlgorithm algorithm = new memeticAlgorithm();
+	algorithmHandler handler = new algorithmHandler(algorithm); 
 
 	public MainWindow() {
 		this.setExtendedState(JFrame.MAXIMIZED_BOTH); 
