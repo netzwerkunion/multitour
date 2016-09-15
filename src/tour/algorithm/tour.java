@@ -3,7 +3,7 @@ package tour.algorithm;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Tour implements Comparable<Tour>{ 
+public class tour implements Comparable<Tour>{ 
 
 	private List<Integer> route = new ArrayList<Integer>();
 	private List<Integer> cuts = new ArrayList<Integer>();
