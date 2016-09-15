@@ -9,13 +9,13 @@ import java.util.Collections;
 //import java.util.Iterator;
 import java.util.List;
 
-public class AlgorithmHandler {
+public class algorithmHandler {
 
-	private IAlgorithm<Tour> algorithm = null; 
+	private initAlgorithm<Tour> algorithm = null; 
 	private List<Tour> population = null; 
 	private Tour best = null; 
 	
-	public AlgorithmHandler(IAlgorithm<Tour> algorithm)
+	public algorithmHandler(initAlgorithm<Tour> algorithm)
 	{
 		this.algorithm = algorithm; 
 		this.population = algorithm.createStartingPopulation(); 
