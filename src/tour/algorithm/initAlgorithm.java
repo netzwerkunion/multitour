@@ -2,7 +2,7 @@ package tour.algorithm;
 
 import java.util.List;
 
-public interface IAlgorithm<T> {
+public interface initAlgorithm<T> {
 
 	public List<T> createStartingPopulation(); 
 	
